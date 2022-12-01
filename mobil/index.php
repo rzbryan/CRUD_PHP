@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Data Rental Mobil</h1>
-    <a href="">Tambah Data</a>
+    <a href="tambah_data.php">Tambah Data</a>
 
     <table border = 1>
         <tr>
@@ -36,8 +36,8 @@
             <td><?php echo $d['nama_penyewa']; ?></td>
             <td><?php echo $d['lama_sewa']; ?></td>
             <td>
-                <a href=""<?php echo $d['Kode_sewa']?>>EDIT</a>
-                <a href=""<?php echo $d['Kode_sewa']?>>DELETE</a>
+                <a href="edit_data.php?kode_sewa=<?php echo $d['kode_sewa']?>">EDIT</a>
+                <a href="hapus_data.php?kode_sewa=<?php echo $d['kode_sewa']?>">DELETE</a>
             </td>
         </tr>
         <?php
