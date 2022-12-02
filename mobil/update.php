@@ -9,7 +9,7 @@
     $lama_sewa = $_POST['lama_sewa'];
 
     mysqli_query($koneksi,"update mobil set no_mobil='$no_mobil', merek_mobil='$merek_mobil', warna_mobil='$warna_mobil',
-    nama_penyewa='$nama_penyewa', lama_sewa='$lama_sewa' where kode_sewa = '$kode_Sewa'");
+    nama_penyewa='$nama_penyewa', lama_sewa='$lama_sewa' where kode_sewa = '$kode_sewa'");
 
     header("location:index.php")
 
