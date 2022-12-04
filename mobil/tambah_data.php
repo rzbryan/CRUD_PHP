@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../form.css">
-    <title>Document</title>
+    <title>add data</title>
 </head>
 <body>
     <form action="simpan.php" method="POST">
-        <h2>EDIT DATA</h2>
+        <h2>TAMBAH DATA</h2>
             <label>Kode Sewa</label>
             <input type="text" name = "kode_sewa">
             
